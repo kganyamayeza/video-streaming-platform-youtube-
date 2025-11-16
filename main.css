@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #f1f1f1;
+}
+
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+.video-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.video-card img {
+    width: 100%;
+}
+
+.video-card h3 {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.video-player {
+    width: 100%;
+    height: auto;
+}
+
+.comment-list {
+    margin-top: 20px;
+}
+
+.comment {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.comment h4 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.comment p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.upload-form button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.upload-form button:hover {
+    background-color: #e60000;
+}
+
+.profile-info {
+    margin-bottom: 20px;
+}
+
+.profile-info h2 {
+    margin: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.login-form button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #e60000;
+}
